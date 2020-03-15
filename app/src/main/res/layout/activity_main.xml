@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="20sp"
+        android:padding="4dp"
+        android:text="@string/developers_name"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/value_input_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:text="@string/default_value"
+        android:textAlignment="textStart"
+        tools:ignore="MissingConstraints"
+        android:hint="@string/value_hint"
+        android:autofillHints="@string/value_hint" />
+
+    <EditText
+        android:id="@+id/value_input_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:text="@string/default_value"
+        android:textAlignment="textStart"
+        tools:ignore="MissingConstraints"
+        android:hint="@string/value_hint"
+        android:autofillHints="@string/value_hint" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_calculate"/>
+
+    <TextView
+        android:id="@+id/value_result_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_navigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_navigate"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/value_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="20sp"/>
+</LinearLayout>

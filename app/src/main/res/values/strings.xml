@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MOC Homework 1</string>
+    <string name="developers_name">Andreas Mattes</string>
+    <string name="btn_calculate">CALCULATE</string>
+    <string name="default_value">0</string>
+    <string name="value_hint">Type in a numeric value</string>
+    <string name="btn_navigate">NAVIGATE</string>
+</resources>
